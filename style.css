@@ -25,6 +25,19 @@
     color: #868d89; 
 }
 
+@media(max-width: 600px) {
+    .title{
+        margin-top: -23%;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    html body{
+        overflow: hidden;
+    }
+    
+}
+
 .calculator{
     background: #000000;
     padding: 5px;
